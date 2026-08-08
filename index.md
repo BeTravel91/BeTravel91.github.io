@@ -2,12 +2,16 @@
 layout: default
 ---
 
-# Willkommen auf meinem Reiseblog!
+# Touren & Reisen
 
-Hier sammle ich die Berichte und Bilder meiner Motorradtouren.
+Hier findest du alle Etappen, sortiert nach der jeweiligen Tour.
 
-## Meine neuesten Touren:
+{% for category in site.categories %}
+## 🏍️ {{ category[0] }}
 
-{% for post in site.posts %}
+{% for post in category[1] %}
 * [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%d.%m.%Y" }}
+{% endfor %}
+
+---
 {% endfor %}
