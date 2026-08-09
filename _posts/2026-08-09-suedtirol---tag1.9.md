@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "ST Tag 1.8"
+title: "Südtirol - Tag1.9"
 category: "Südtirol 2026"
 ---
 
-Der Tag startete früh am Morgen in Mühlbach. Unser heutiges Ziel: Die berühmte Sieben-Pässe-Tour. Den Auftakt machte der Passo Verpolo, der uns direkt mit ersten großartigen Kurven begrüßte. Im Laufe der Route reihte sich ein Highlight an das nächste, belohnt mit beeindruckenden Panoramen über die Südtiroler Bergwelt.
+Star tam Morgen in Mühlbach, über die sieben Pässe Tour, erster Pass Passo Verpolo, beeindruckende Panoramen, ende der sieben Pässe am Passo Prodoi, auf zum Caldonazzo See, Ankunft am Caldonazzo See bei 35°C, Tag ausklingen lassen am See mit Pizza und la dolce vite
 
-Das große Finale der Sieben-Pässe-Tour bildete der Passo Pordoi, bevor wir uns auf den Weg Richtung Tagesziel machten: den Caldonazzosee. Bei hochsommerlichen 35°C war die Ankunft am Wasser eine echte Erlösung. Den Abend ließen wir ganz entspannt direkt am See ausklingen – natürlich mit einer hervorragenden Pizza und einer ordentlichen Portion la dolce vita.
 
 ### 📊 Tour-Statistik
 * **Start:** Mühlbach - Rio di Pusteria
@@ -16,17 +15,17 @@ Das große Finale der Sieben-Pässe-Tour bildete der Passo Pordoi, bevor wir uns
 
 
 ### 🗺️ Gefahrene Route
-<div id="map-st-tag-1.8" style="width: 100%; height: 420px; margin-bottom: 20px; border-radius: 8px; z-index: 1;"></div>
+<div id="map-suedtirol---tag1.9" style="width: 100%; height: 420px; margin-bottom: 20px; border-radius: 8px; z-index: 1;"></div>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-      var map = L.map('map-st-tag-1.8');
+      var map = L.map('map-suedtirol---tag1.9');
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap'
       }).addTo(map);
-      new L.GPX('/gpx/2026-08-08-st-tag-1.8.gpx', {
+      new L.GPX('/gpx/2026-08-09-suedtirol---tag1.9.gpx', {
         async: true,
         marker_options: {
           startIconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/pin-icon-start.png',
