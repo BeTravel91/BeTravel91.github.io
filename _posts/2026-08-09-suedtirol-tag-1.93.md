@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Südtirol Tag 1.93"
-category: "Südtirol 2026"
+category: "Tirol 2026"
 ---
 
 Star tam Morgen in Mühlbach, über die sieben Pässe Tour, erster Pass Passo Verpolo, beeindruckende Panoramen, ende der sieben Pässe am Passo Prodoi, auf zum Caldonazzo See, Ankunft am Caldonazzo See bei 35°C, Tag ausklingen lassen am See mit Pizza und la dolce vite
